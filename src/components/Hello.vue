@@ -21,7 +21,7 @@ export default Vue.extend({
         increment() { this.enthusiasm++; },
         decrement() {
             if (this.enthusiasm > 1) {
-                this.enthusiasm--;
+                this.enthusiasm--
             }
         },
     },
